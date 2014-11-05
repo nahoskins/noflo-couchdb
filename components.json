@@ -1,0 +1,36 @@
+{
+  "name": "couchdb",
+  "description": "Wrapper around googlecode's crypto-js",
+  "author": "Kenneth Kan <kenhkan@gmail.com>",
+  "repo": "nahoskins/noflo-couchdb",
+  "version": "0.2.2",
+  "keywords": [
+  ],
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
+  "scripts": [
+    "components/BulkUpdate.coffee",
+    "components/GetChanges.coffee",
+    "components/ReadDocumentAttachment.coffee",
+    "components/ReadDocument.coffee",
+    "components/ReadViewDocuments.coffee",
+    "components/WriteDocument.coffee",
+    "components/CreateDatabaseIfNoneExists.coffee",
+    "index.js"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "components": {
+    	"Bulk Update":"./components/BulkUpdate.coffee",
+    "Get Changes":"components/GetChanges.coffee",
+    "Read Document Attachment":"./components/ReadDocumentAttachment.coffee",
+    "Read Document":"./components/ReadDocument.coffee",
+    "Read View Documents":"./components/ReadViewDocuments.coffee",
+    "Write Document":"./components/WriteDocument.coffee",
+    "Create DB if none":"./components/CreateDatabaseIfNoneExists.coffee",
+    }
+  }
+}

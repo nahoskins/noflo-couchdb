@@ -30,7 +30,7 @@
     "Read Document":"./components/ReadDocument.coffee",
     "Read View Documents":"./components/ReadViewDocuments.coffee",
     "Write Document":"./components/WriteDocument.coffee",
-    "Create DB if none":"./components/CreateDatabaseIfNoneExists.coffee",
+    "Create DB if none":"./components/CreateDatabaseIfNoneExists.coffee"
     }
   }
 }
